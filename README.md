@@ -1,59 +1,74 @@
+# ApexPlanet Data Analytics
 
-- Removed duplicates
-- Converted date columns
-- Performed Exploratory Data Analysis
-- Created visualizations
-- Saved the cleaned dataset
+This project is part of the **ApexPlanet Data Analytics Internship** and contains work completed across Tasks 1, 2, and 3 using the Sample Superstore dataset.
 
 ---
+
+# Task 1 - Exploratory Data Analysis
+
+## 📌 Project Overview
+
+The objective of Task 1 is to perform Exploratory Data Analysis (EDA) on the Sample Superstore dataset using Python.
+
+## 🛠️ Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* VS Code
+
+## 📊 Tasks Performed
+
+* Loaded the dataset
+* Checked missing values
+* Removed duplicates
+* Converted date columns
+* Performed Exploratory Data Analysis
+* Created visualizations
+* Saved the cleaned dataset
 
 ## 📁 Dataset
 
-Sample - Superstore Dataset
+**Sample - Superstore Dataset**
 
 ---
 
-## 👩‍💻 Author
+# Task 2 - SQL & Database Integration
 
-Hansika Agadkar
-
-ApexPlanet Data Analytics Internship
-
-
----
-
-# ApexPlanet Data Analytics - Task 2
-
-## SQL & Database Integration
+## 📌 Overview
 
 In this task, the Sample Superstore dataset was integrated with SQLite using Python, Pandas, and SQLAlchemy.
 
-### Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- SQL
-- SQLite
-- SQLAlchemy
-- Jupyter Notebook
+* Python
+* Pandas
+* SQL
+* SQLite
+* SQLAlchemy
+* Jupyter Notebook
 
-### Work Completed
+## 📊 Work Completed
 
-- Loaded the Superstore dataset into SQLite
-- Created a `sales` database table
-- Performed SQL queries for business analysis
-- Analyzed sales by product, category, region, customer, and segment
-- Calculated monthly sales trends
-- Used advanced SQL concepts:
-  - CTE
-  - ROW_NUMBER()
-  - RANK()
-  - LAG()
-  - LEAD()
-- Created a SQL View for monthly sales
-- Created reusable database utility functions using Python and SQLAlchemy
+* Loaded the Superstore dataset into SQLite
+* Created a `sales` database table
+* Performed SQL queries for business analysis
+* Analyzed sales by product, category, region, customer, and segment
+* Calculated monthly sales trends
+* Used advanced SQL concepts:
 
-### Project Files
+  * CTE
+  * ROW_NUMBER()
+  * RANK()
+  * LAG()
+  * LEAD()
+* Created a SQL View for monthly sales
+* Created reusable database utility functions using Python and SQLAlchemy
+
+## 📂 Project Files
 
 ```text
 data/
@@ -69,55 +84,14 @@ scripts/
     __init__.py
 
 sql/
-    task2_queries.sql# ApexPlanet Data Analytics - Task 1
-
-## 📌 Project Overview
-This project is part of the ApexPlanet Data Analytics Internship.
-
-The objective of this task is to perform Exploratory Data Analysis (EDA) on the Sample Superstore dataset using Python.
-
----
-
-## 📂 Project Structure
-
-```
-apexplanet-data-analytics/
-│
-├── data/
-│   ├── Sample - Superstore - Copy.csv
-│   └── cleaned_data.csv
-│
-├── notebooks/
-│   └── Task1_EDA.ipynb
-│
-├── scripts/
-├── reports/
-├── dashboards/
-└── README.md
+    task2_queries.sql
 ```
 
 ---
 
-## 🛠️ Tools Used
+# Task 3 - Data Visualization & Dashboard
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- VS Code
-
----
-
-## 📊 Tasks Performed
-
-- Loaded the dataset
-- Checked missing values
-
-# ApexPlanet Data Analytics - Task 3
-
-## 📌 Task 3 - Data Visualization & Dashboard
+## 📌 Overview
 
 The objective of Task 3 is to create meaningful visualizations and an interactive dashboard using the Sample Superstore dataset.
 
@@ -161,3 +135,12 @@ The dashboard includes:
 * Power BI
 * VS Code
 * Git & GitHub
+
+---
+
+## 👩‍💻 Author
+
+**Hansika Agadkar**
+
+ApexPlanet Data Analytics Internship
+
