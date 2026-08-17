@@ -144,3 +144,47 @@ The dashboard includes:
 
 ApexPlanet Data Analytics Internship
 
+
+## Task 4 – Advanced Analytics
+
+### Objective
+Applied statistical analysis, time-series analysis, customer segmentation, and basic predictive modeling to the Sample Superstore dataset.
+
+### Statistical Analysis
+- Calculated mean, median, mode, standard deviation, and skewness.
+- Performed an independent two-sample t-test comparing Consumer and Corporate segment profits.
+- Calculated a 95% confidence interval for mean profit.
+
+### Time Series Analysis
+- Converted Order Date into datetime format.
+- Resampled sales data on a monthly basis.
+- Analyzed monthly sales trends.
+- Calculated a 3-month moving average.
+
+### Customer Segmentation
+- Created RFM features:
+  - Recency
+  - Frequency
+  - Monetary
+- Standardized the features using StandardScaler.
+- Applied K-Means clustering.
+- Selected 4 customer segments using the Elbow Method.
+- Used PCA to visualize the customer clusters.
+- The first two principal components explained approximately 83.37% of the total variance.
+
+### Predictive Modeling
+- Built a Linear Regression model to predict Sales.
+- Used an 80/20 train-test split.
+- Used Quantity, Discount, and Profit as prediction features.
+- Evaluated the model using:
+  - R²
+  - MAE
+  - RMSE
+- Analyzed feature coefficients to determine relative feature importance.
+
+### Files
+- `notebooks/Task4_Advanced_Analytics.ipynb`
+- `data/customer_segments.csv`
+
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, Jupyter Notebook
