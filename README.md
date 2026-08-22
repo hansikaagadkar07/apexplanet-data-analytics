@@ -188,3 +188,54 @@ Applied statistical analysis, time-series analysis, customer segmentation, and b
 
 ### Tools Used
 Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn, Jupyter Notebook
+
+
+## Task 5 – Automation & Reporting
+
+### Objective
+
+Developed an automated data processing and KPI reporting pipeline using Python to streamline data cleaning, analysis, and report generation.
+
+### Tools & Technologies
+
+* Python
+* Pandas
+* OpenPyXL
+* Excel
+* Git & GitHub
+
+### Automation Pipeline
+
+The automation pipeline performs the following steps:
+
+1. Loads the raw Superstore dataset.
+2. Cleans and preprocesses the data.
+3. Calculates important business KPIs.
+4. Generates an Excel KPI report automatically.
+5. Saves the cleaned dataset and generated reports.
+
+### Key Performance Indicators
+
+| KPI                 |    Result |
+| ------------------- | --------: |
+| Total Sales         | 2,297,201 |
+| Total Profit        |   286,397 |
+| Total Orders        |     5,009 |
+| Total Customers     |       793 |
+| Total Quantity      |    37,873 |
+| Average Order Value |    458.61 |
+
+### Task 5 Files
+
+```text
+automation/
+└── pipeline.py
+
+reports/
+├── task5_kpi_report.xlsx
+└── Task5_Final_Project_Reports.pdf.pdf
+```
+
+### Outcome
+
+Successfully implemented an automated reporting workflow that converts raw data into cleaned data and business KPI reports, reducing manual reporting effort and improving the efficiency of data analysis.
